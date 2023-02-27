@@ -1,3 +1,7 @@
+img {
+    width: 100%;
+}
+
 /* HEADER  */
 header {
     height: 80px;
@@ -11,9 +15,22 @@ header {
 }
 
 /* MAIN  */
+/* Section Jumbo */
 .ms_jumbo {
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-color: #1ABC9C;
 }
 
+/* Section-portfolio */
+.portfolio {
+    /* debug */
+    background-color: lightblue;
+}
+
+/* Section about */
+.about {
+    background-color: #1ABC9C;
+}
+
+/* Section contact me  */
