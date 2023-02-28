@@ -1,5 +1,25 @@
+/* COMMON  */
 img {
     width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.line {
+    width: 60px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 /* HEADER  */
@@ -10,16 +30,19 @@ header {
 }
 
 .ms_menu li {
-    list-style-type: none;
     margin-left: 1rem;
 }
 
 /* MAIN  */
 /* Section Jumbo */
 .ms_jumbo {
-    height: 350px;
+    height: 360px;
     width: 100%;
     background-color: #1ABC9C;
+}
+
+.avatar-img {
+    width: 200px;
 }
 
 /* Section-portfolio */

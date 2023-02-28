@@ -10,6 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- link css  -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div>
@@ -17,17 +19,23 @@
         <header>
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
-                    <div class="col-10">titolo</div>
-                
-                    <div class="col-2">
+                    <div class="col-10 col-md-5">
+                        <h5>START BOOTSTRAP</h5>
+                    </div>
+                    
+                    <div class="col-2 col-md-7">
+                        <div class="d-md-none">
+                            <span><i class="fa-solid fa-bars"></i></span>
+                        </div>
+
                         <nav class="d-none d-md-block">
-                            <ul class="ms_menu d-flex g-3">
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
+                            <ul class="ms_menu d-flex justify-content-end gx-4">
+                                <li><a href="">PORTFOLIO</a></li>
+                                <li><a href="">ABOUT</a></li>
+                                <li><a href="">CONTACT</a></li>
                             </ul>
                         </nav>
-                        <div class="col-2 d-md-none">menù</div>
+                        
                     </div>
                 </div>
             </div>
@@ -38,9 +46,18 @@
             <!-- section-1  -->
             <section class="container-fluid ms_jumbo">
                 <div class="jumbotron text-center">
-                    <div class="img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti accusamus temporibus officiis nostrum quia impedit error nesciunt, tempora, perspiciatis dicta possimus dolor. Architecto qui possimus cumque laudantium magnam temporibus!</div>
-                    <hr>
-                    <div class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, id et. Rem commodi cupiditate amet quo iure beatae nam impedit!</div>
+                    <img class="avatar-img pt-3" src="img/avatar.svg" alt="">
+                    <h3 class="p-2 text-white">START BOOTSTRAP</h3>
+
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="line text-white"></div>
+                        <i class="fa-solid fa-star text-white p-2"></i>
+                        <span class="line text-white"></span>
+                    </div>
+                 
+                    <div class="text pb-2">
+                        <p class="text-white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                    </div>
                 </div>
             </section>
 
