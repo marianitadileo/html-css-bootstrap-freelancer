@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .line {
-    width: 60px;
+    width: 80px;
     border-radius: 10px;
     border: 1px solid;
 }
@@ -57,6 +57,10 @@ header {
 }
 
 /* Section contact me  */
+.ms_btn_send {
+    background-color: #1ABC9C;
+    border-color: transparent;
+}
 
 /* FOOTER */
 .foot-top {
