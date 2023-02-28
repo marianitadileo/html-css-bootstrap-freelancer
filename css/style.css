@@ -33,6 +33,11 @@ header {
     margin-left: 1rem;
 }
 
+.fa-bars {
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 5px;
+}
 /* MAIN  */
 /* Section Jumbo */
 .ms_jumbo {
@@ -43,12 +48,6 @@ header {
 
 .avatar-img {
     width: 200px;
-}
-
-/* Section-portfolio */
-.portfolio {
-    /* debug */
-    background-color: lightblue;
 }
 
 /* Section about */
@@ -67,6 +66,17 @@ header {
     background-color:#3A546D ;
 }
 
+.ms_icons {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 55%;
+    border: 1px solid white;
+    gap: 3px;
+}
+
 .foot-bot {
+    height: 100px;
     background-color: #2C3E50;
 }

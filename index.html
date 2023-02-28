@@ -19,13 +19,13 @@
         <header>
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
-                    <div class="col-10 col-md-5">
+                    <div class="col-10 col-md-5 pb-2">
                         <h5>START BOOTSTRAP</h5>
                     </div>
                     
                     <div class="col-2 col-md-7">
                         <div class="d-md-none">
-                            <span><i class="fa-solid fa-bars"></i></span>
+                            <span><i class="fa-solid fa-bars fs-4 text"></i></span>
                         </div>
 
                         <nav class="d-none d-md-block">
@@ -95,7 +95,7 @@
 
             <!-- Section-3  -->
             <section class="about">
-                <div class="container-fluid pb-4">
+                <div class="container pb-4">
                     <h4 class="text-center text-white p-3">ABOUT</h4>
                     <div class="d-flex align-items-center justify-content-center pb-3">
                         <div class="line text-white"></div>
@@ -104,25 +104,32 @@
                     </div>
                     <div class="row">
                         <div class="col-12 col-md-6"> 
-                            <p class="text-white">Freelancer is a free bootstrap
+                            <p class="text-white">
+                                Freelancer is a free bootstrap
                                 theme created by Start Bootstrap.
                                 The download includes the
                                 complete source files including
                                 HTML, CSS, and JavaScript as
                                 well as optional LESS stylesheets
-                                for easy customization.</p>
+                                for easy customization.
+                            </p>
                         </div>
                         <div class="col-12 col-md-6">
-                            <p class="text-white">Whether you're a student looking
+                            <p class="text-white">
+                                Whether you're a student looking
                                 to showcase your work, a
                                 professional looking to attract
                                 clients, or a graphic artist looking
                                 to share your projects, this
                                 template is the perfect starting
-                                point!</p>
+                                point!
+                            </p>
+                        </div>
+                        <div class="col-12 d-flex   justify-content-center mt-2 mb-4">
+                            <button type="button" class="btn btn-outline-primary text-white border-white"><i class="fa-solid fa-download"></i> Download</button> 
                         </div>
                     </div>
-                    <button type="button" class="btn btn-outline-primary text-white border-white"><i class="fa-solid fa-download"></i> Download</button> 
+                   
                 </div>
             </section>
 
@@ -139,17 +146,42 @@
                                 <i class="fa-solid fa-star p-2"></i>
                                 <span class="line"></span>
                             </div>
-                            <h5>Name</h5>
-                            <hr>
-                            <h5>Email Address</h5>
-                            <hr>
-                            <h5>Phone Number</h5>
-                            <hr>
-                            <h5>Message</h5>
+                            <form action="">
+                                <div class="form-name">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="floatingInput">
+                                        <label for="floatingInput">Name</label>
+                                      </div>
+                                </div>
+                               
+                                <div class="form-email">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="floatingInput">
+                                        <label for="floatingInput">Email address</label>
+                                      </div>
+                                </div>
+
+                                <div class="form-number">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="floatingInput">
+                                        <label for="floatingInput">Phone Number</label>
+                                      </div>
+                                  
+                                </div>
+
+                                <div class="textarea">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2">Message</label>
+                                      </div>
+                                      
+                                </div>
+                                
+                            </form>
+                            
                         </div>
     
-                        <div class="contact-text pb-3">
-                            <hr>
+                        <div class="contact-text pt-2 pb-3">
                             <a class="btn btn-primary ms_btn_send pb-2" href="#" role="button">Send</a>
                         </div>
                     </div>
@@ -160,13 +192,18 @@
         <!-- FOOTER  -->
         <footer>
             <div class="container-fluid foot-top h-200">
-                <div class="row gy-4 text-center text-white ">
-                    <span>LOCATION</span>
+                <div class="container row gy-4 text-center text-white">
+                    
                     <div class="col-8 col-md-4">
+                        <span>LOCATION</span>
                         <p>2015 John Daniel Drive Clark, MO 54243</p>
                     </div>
-                    <div class="col-8 col-md-4">AROUND THE WEB 
-
+                    <div class="col-8 col-md-4">
+                        <h6>AROUND THE WEB</h6>
+                        <span class="ms_icons"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="ms_icons"><i class="fa-brands fa-google-plus-g"></i></span>
+                        <span class="ms_icons"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="ms_icons"><i class="fa-brands fa-linkedin-in"></i></span>
                     </div>
                     <div class="col-8 col-md-4">
                         <span>ABOUT FREELANCER</span>
@@ -175,8 +212,8 @@
                 </div>
             </div>
 
-            <div class="foot-bot text-center text-white">
-                <p>Copyright <i class="fa-regular fa-copyright"></i>  Your Website 2019</p>
+            <div class="foot-bot text-center text-white d-flex justify-content-center align-items-center">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
             </div>
 
         </footer>
